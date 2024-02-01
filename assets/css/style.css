@@ -1,8 +1,10 @@
 
-html, body {
+html, body, div, header, h1 {
     margin: 0px;
     background-color: #2F4F30;
     color: white;
+    border-color: #2F4F30;
+    border-style: none;
 }
 .titulo{
     text-align: center;
@@ -11,3 +13,26 @@ html, body {
     padding:15px;
     font-size: 30px;
 } 
+
+
+.carta {
+    width: 150px;
+    position: relative;
+    left: 100px;
+    margin-left: -75px;
+}
+div {
+    padding-left: 10px;
+    background-color: #2F4F30;
+}
+
+h1 {
+    padding-bottom: 5px;
+    padding-top: 20px;
+}
+
+#botonera {
+    padding-top: 10px;
+    padding-bottom: 5px;
+
+}
